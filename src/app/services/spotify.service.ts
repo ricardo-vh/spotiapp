@@ -5,6 +5,8 @@ import { map } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
+
+// servicio de spotify
 export class SpotifyService {
 
   constructor( private http: HttpClient ) {
